@@ -10,7 +10,7 @@ include 'Grid/Rcc/Status.php';
 $id = $_GET["id"];
 $redirect = ($_GET["redirect"] ?? true); // Default to true if not specified
 
-$RCC = new Roblox\Grid\Rcc\RCCRenderer("127.0.0.1", 48434);
+$RCC = new Roblox\Grid\Rcc\RCCRenderer("127.0.0.1", 64989);
 
 $path1 = $_SERVER['DOCUMENT_ROOT'] . '/Tools/RenderedUsers/' . $id . '.png';
 $path2 = $_SERVER['DOCUMENT_ROOT'] . '/Tools/RenderedUsers/' . $id . '-closeup' . '.png';

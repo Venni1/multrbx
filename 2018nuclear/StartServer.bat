@@ -1,1 +1,0 @@
-start mul18.exe -console -verbose
